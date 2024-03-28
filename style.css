@@ -1,0 +1,45 @@
+:root{
+    font-family: sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.section-form {
+    width: 100%;
+    min-width: 300px;
+    max-width: 500px;
+    margin: auto;
+}
+.color{
+    color: blue;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    color: grey;
+}
+.label-text input {
+    width: 100%;
+    background-color: grey;
+    border: none;
+    padding: 20px;
+    margin-top: 5px;
+
+}
+
+.checkbox {
+}
+.remember-link {
+    float: right;
+    text-decoration: none;
+}
+.button {
+    width: 100%;
+    background-color: rgb(91, 91, 231);
+    border: none;
+    padding: 20px;
+    color: aliceblue;
+}
